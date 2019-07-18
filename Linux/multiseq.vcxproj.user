@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PreLaunchCommand>
+    </PreLaunchCommand>
+    <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommandArguments>malign --in 'mt genome (1x).fasta' --threads 3 --seed-pattern 111111111</RemoteDebuggerCommandArguments>
+    <RemoteTarget>1273441350;192.168.1.102 (username=ubuntu15, port=22, authentication=Password)</RemoteTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PreLaunchCommand>
+    </PreLaunchCommand>
+    <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommandArguments>malign --in 'mt genome (1x).fasta' --threads 3 --minimizer</RemoteDebuggerCommandArguments>
+    <RemoteTarget>1273441350;192.168.1.102 (username=ubuntu15, port=22, authentication=Password)</RemoteTarget>
+  </PropertyGroup>
+</Project>
