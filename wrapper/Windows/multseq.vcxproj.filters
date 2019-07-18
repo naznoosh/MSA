@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\align">
+      <UniqueIdentifier>{22f63895-2da6-48f9-936d-8018b4cfe4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\basic">
+      <UniqueIdentifier>{ab99f17b-7d0b-4f6f-99e4-e4108d28637f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blast">
+      <UniqueIdentifier>{9e2d83f3-c5c5-405a-ac86-b9e55088d6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blast">
+      <UniqueIdentifier>{36229fef-4161-404b-b5ff-efe7dc2bc565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{354f2d6e-44be-4791-89fa-a2ff185de95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data">
+      <UniqueIdentifier>{7a91e897-311b-4f23-ad20-4b19960e267a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dp">
+      <UniqueIdentifier>{6615ba45-b217-4c65-af3f-38fc2e1e8927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dp">
+      <UniqueIdentifier>{71f60ef6-7bc5-49b6-a693-a3683a3ecb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extra">
+      <UniqueIdentifier>{d5744cfd-cdaa-4870-8032-0c51316dfe35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\extra">
+      <UniqueIdentifier>{63196405-95b7-4ae6-8725-979a4eaf0904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{941a4c09-e153-4541-93b7-2376c0ac375b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib">
+      <UniqueIdentifier>{1f8472bb-6d37-4600-949d-414af054071f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\output">
+      <UniqueIdentifier>{883cce71-2334-4127-86e6-b9643cd82574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\output">
+      <UniqueIdentifier>{d0c23e78-a551-441c-92c6-3aca28732ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\run">
+      <UniqueIdentifier>{0b1caf5e-9213-469c-9123-967af0fbe519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\run">
+      <UniqueIdentifier>{c0da7d8a-8d1e-4d32-960d-024cdcf4ed54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\search">
+      <UniqueIdentifier>{4c8c4d81-8cdd-405b-829d-65d598acaea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\search">
+      <UniqueIdentifier>{bfbf0ff6-ea30-4b36-8579-c77bf9566306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{dc4132f6-3331-4bcc-a368-3c1b9fba5356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{56690388-8cf6-4775-bac6-01309e437416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\align">
+      <UniqueIdentifier>{d2f95f78-913e-4787-8f04-f88a4e7929bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\basic">
+      <UniqueIdentifier>{2fdc09ad-6373-4373-96ad-8739345dde97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib\tantan">
+      <UniqueIdentifier>{9184dc84-33d4-4b00-84ad-f3fb8b1ab026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\tantan">
+      <UniqueIdentifier>{22b8d976-66e1-4427-b56f-5620ee5169d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\malign">
+      <UniqueIdentifier>{70756cf1-9094-4ea9-ae16-2d1ea8875d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\malign">
+      <UniqueIdentifier>{20d3ffbe-6ec2-4775-b062-d55911488de4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Diamond\align\align.cpp">
+      <Filter>Source Files\align</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\align\align_target.cpp">
+      <Filter>Source Files\align</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\align\query_mapper.cpp">
+      <Filter>Source Files\align</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\basic\basic.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\basic\config.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\basic\hssp.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\basic\masking.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\basic\score_matrix.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum45.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum50.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum62.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum80.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum90.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_pam30.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_pam70.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\sm_pam250.c">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\blast_filter.cpp">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\blast\blast_seg.cpp">
+      <Filter>Source Files\blast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\frequent_seeds.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\queries.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\reference.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\seed_histogram.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\seed_set.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\sorted_list.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\data\taxonomy.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\banded_sw.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\comp_based_stats.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\diag_scores.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\floating_sw.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\greedy_align.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\needleman_wunsch.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\padded_banded_sw.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\smith_waterman.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\swipe.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\dp\ungapped_align.cpp">
+      <Filter>Source Files\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\extra\model_sim.cpp">
+      <Filter>Source Files\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\extra\opt.cpp">
+      <Filter>Source Files\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\extra\roc.cpp">
+      <Filter>Source Files\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\lib\tantan\tantan.cc">
+      <Filter>Source Files\lib\tantan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\blast_pairwise_format.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\blast_tab_format.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\daa_record.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\join_blocks.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\output_format.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\output_sink.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\sam_format.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\target_culling.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\taxon_format.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\output\view.cpp">
+      <Filter>Source Files\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\run\benchmark.cpp">
+      <Filter>Source Files\run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\run\double_indexed.cpp">
+      <Filter>Source Files\run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\run\main.cpp">
+      <Filter>Source Files\run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\run\tools.cpp">
+      <Filter>Source Files\run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\search\collision.cpp">
+      <Filter>Source Files\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\search\search.cpp">
+      <Filter>Source Files\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\search\setup.cpp">
+      <Filter>Source Files\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\search\stage2.cpp">
+      <Filter>Source Files\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\binary_file.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\command_line_parser.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\compressed_stream.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\seq_file_format.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\simd.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\Timer.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\tinythread.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Diamond\util\util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\malign.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\seed_set_ex.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\seed_histogram_ex.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\sorted_list_ex.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\common_seed.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\compatible_chain.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\minimizer.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\subseq_align.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\progress.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\common_noise.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\malign\temp_file_ex.cpp">
+      <Filter>Source Files\malign</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Diamond\align\align.h">
+      <Filter>Header Files\align</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\align\align_struct.h">
+      <Filter>Header Files\align</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\align\extend_ungapped.h">
+      <Filter>Header Files\align</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\align\match_func.h">
+      <Filter>Header Files\align</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\align\query_mapper.h">
+      <Filter>Header Files\align</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\value.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\translate.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\statistics.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\shape_config.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\shape.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\sequence.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\seed_iterator.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\seed.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\score_matrix.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\reduction.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\packed_transcript.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\packed_sequence.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\packed_loc.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\match.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\masking.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\const.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\basic\config.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\raw_scoremat.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\ncbitype.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\ncbi_std.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\ncbi_math.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_stat.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_seg.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_query_info.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_program.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_message.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_filter.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_encoding.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\blast\blast_def.h">
+      <Filter>Header Files\blast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\taxonomy.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\string_set.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\sorted_list.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\sequence_set.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\seed_set.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\seed_histogram.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\reference.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\queries.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\load_seqs.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\index.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\data\frequent_seeds.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\traceback.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\smith_waterman.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\score_vector.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\score_profile.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\scalar_traceback.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\scalar_dp_matrix.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\growing_buffer.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\floating_sw.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\dp_matrix.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\dp\dp.h">
+      <Filter>Header Files\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\extra\blast_record.h">
+      <Filter>Header Files\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\extra\compare.h">
+      <Filter>Header Files\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\extra\extra.h">
+      <Filter>Header Files\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\extra\match_file.h">
+      <Filter>Header Files\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\lib\tantan\tantan.hh">
+      <Filter>Header Files\lib\tantan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\output\target_culling.h">
+      <Filter>Header Files\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\output\output_format.h">
+      <Filter>Header Files\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\output\output.h">
+      <Filter>Header Files\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\output\daa_write.h">
+      <Filter>Header Files\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\output\daa_record.h">
+      <Filter>Header Files\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\output\daa_file.h">
+      <Filter>Header Files\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\run\tools.h">
+      <Filter>Header Files\run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\search\align_range.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\search\collision.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\search\hit_filter.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\search\sse_dist.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\search\trace_pt_buffer.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\util.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\tinythread.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\Timer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\thread.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\text_buffer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\temp_file.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\task_queue.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\system_c.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\system.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\simd.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\seq_file_format.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\radix_sort.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\queue.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\ptr_vector.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\merge_sort.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\map.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\log_stream.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\high_res_timer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\hash_table.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\hash_function.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\fast_mutex.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\double_buffer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\direction.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\compressed_stream.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\complexity_filter.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\command_line_parser.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\binary_file.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\binary_buffer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Diamond\util\async_buffer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\seed_set_ex.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\seed_histogram_ex.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\sorted_list_ex.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\compatible_chain.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\temp_file_ex.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\minimizer.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\progress.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\subseq_align.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\common_noise.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\common_seed.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\malign\semaphor.h">
+      <Filter>Header Files\malign</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
