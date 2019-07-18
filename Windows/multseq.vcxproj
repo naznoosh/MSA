@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\malign\common_noise.cpp" />
+    <ClCompile Include="..\src\malign\common_seed.cpp" />
+    <ClCompile Include="..\src\malign\compatible_chain.cpp" />
+    <ClCompile Include="..\src\malign\malign.cpp" />
+    <ClCompile Include="..\src\malign\minimizer.cpp" />
+    <ClCompile Include="..\src\malign\progress.cpp" />
+    <ClCompile Include="..\src\malign\seed_histogram_ex.cpp" />
+    <ClCompile Include="..\src\malign\seed_set_ex.cpp" />
+    <ClCompile Include="..\src\malign\sorted_list_ex.cpp" />
+    <ClCompile Include="..\src\malign\subseq_align.cpp" />
+    <ClCompile Include="..\src\Diamond\align\align.cpp" />
+    <ClCompile Include="..\src\Diamond\align\align_target.cpp" />
+    <ClCompile Include="..\src\Diamond\align\query_mapper.cpp" />
+    <ClCompile Include="..\src\Diamond\basic\basic.cpp" />
+    <ClCompile Include="..\src\Diamond\basic\config.cpp" />
+    <ClCompile Include="..\src\Diamond\basic\hssp.cpp" />
+    <ClCompile Include="..\src\Diamond\basic\masking.cpp" />
+    <ClCompile Include="..\src\Diamond\basic\score_matrix.cpp" />
+    <ClCompile Include="..\src\Diamond\blast\blast_filter.cpp" />
+    <ClCompile Include="..\src\Diamond\blast\blast_seg.cpp" />
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum45.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum50.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum62.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum80.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_blosum90.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_pam250.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_pam30.c" />
+    <ClCompile Include="..\src\Diamond\blast\sm_pam70.c" />
+    <ClCompile Include="..\src\Diamond\data\frequent_seeds.cpp" />
+    <ClCompile Include="..\src\Diamond\data\queries.cpp" />
+    <ClCompile Include="..\src\Diamond\data\reference.cpp" />
+    <ClCompile Include="..\src\Diamond\data\seed_histogram.cpp" />
+    <ClCompile Include="..\src\Diamond\data\seed_set.cpp" />
+    <ClCompile Include="..\src\Diamond\data\sorted_list.cpp" />
+    <ClCompile Include="..\src\Diamond\data\taxonomy.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\banded_sw.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\comp_based_stats.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\diag_scores.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\floating_sw.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\greedy_align.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\needleman_wunsch.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\padded_banded_sw.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\smith_waterman.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\swipe.cpp" />
+    <ClCompile Include="..\src\Diamond\dp\ungapped_align.cpp" />
+    <ClCompile Include="..\src\Diamond\extra\model_sim.cpp" />
+    <ClCompile Include="..\src\Diamond\extra\opt.cpp" />
+    <ClCompile Include="..\src\Diamond\extra\roc.cpp" />
+    <ClCompile Include="..\src\Diamond\lib\tantan\tantan.cc" />
+    <ClCompile Include="..\src\Diamond\output\blast_pairwise_format.cpp" />
+    <ClCompile Include="..\src\Diamond\output\blast_tab_format.cpp" />
+    <ClCompile Include="..\src\Diamond\output\daa_record.cpp" />
+    <ClCompile Include="..\src\Diamond\output\join_blocks.cpp" />
+    <ClCompile Include="..\src\Diamond\output\output_format.cpp" />
+    <ClCompile Include="..\src\Diamond\output\output_sink.cpp" />
+    <ClCompile Include="..\src\Diamond\output\sam_format.cpp" />
+    <ClCompile Include="..\src\Diamond\output\target_culling.cpp" />
+    <ClCompile Include="..\src\Diamond\output\taxon_format.cpp" />
+    <ClCompile Include="..\src\Diamond\output\view.cpp" />
+    <ClCompile Include="..\src\Diamond\run\benchmark.cpp" />
+    <ClCompile Include="..\src\Diamond\run\double_indexed.cpp" />
+    <ClCompile Include="..\src\Diamond\run\main.cpp" />
+    <ClCompile Include="..\src\Diamond\run\tools.cpp" />
+    <ClCompile Include="..\src\Diamond\search\collision.cpp" />
+    <ClCompile Include="..\src\Diamond\search\search.cpp" />
+    <ClCompile Include="..\src\Diamond\search\setup.cpp" />
+    <ClCompile Include="..\src\Diamond\search\stage2.cpp" />
+    <ClCompile Include="..\src\Diamond\util\binary_file.cpp" />
+    <ClCompile Include="..\src\Diamond\util\command_line_parser.cpp" />
+    <ClCompile Include="..\src\Diamond\util\compressed_stream.cpp" />
+    <ClCompile Include="..\src\Diamond\util\seq_file_format.cpp" />
+    <ClCompile Include="..\src\Diamond\util\simd.cpp" />
+    <ClCompile Include="..\src\Diamond\util\Timer.cpp" />
+    <ClCompile Include="..\src\Diamond\util\tinythread.cpp" />
+    <ClCompile Include="..\src\Diamond\util\util.cpp" />
+    <ClCompile Include="..\src\malign\temp_file_ex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\malign\common_seed.h" />
+    <ClInclude Include="..\src\malign\common_noise.h" />
+    <ClInclude Include="..\src\malign\compatible_chain.h" />
+    <ClInclude Include="..\src\malign\minimizer.h" />
+    <ClInclude Include="..\src\malign\progress.h" />
+    <ClInclude Include="..\src\malign\seed_histogram_ex.h" />
+    <ClInclude Include="..\src\malign\seed_set_ex.h" />
+    <ClInclude Include="..\src\malign\semaphor.h" />
+    <ClInclude Include="..\src\malign\sorted_list_ex.h" />
+    <ClInclude Include="..\src\malign\subseq_align.h" />
+    <ClInclude Include="..\src\malign\temp_file_ex.h" />
+    <ClInclude Include="..\src\Diamond\align\align.h" />
+    <ClInclude Include="..\src\Diamond\align\align_struct.h" />
+    <ClInclude Include="..\src\Diamond\align\extend_ungapped.h" />
+    <ClInclude Include="..\src\Diamond\align\match_func.h" />
+    <ClInclude Include="..\src\Diamond\align\query_mapper.h" />
+    <ClInclude Include="..\src\Diamond\basic\config.h" />
+    <ClInclude Include="..\src\Diamond\basic\const.h" />
+    <ClInclude Include="..\src\Diamond\basic\masking.h" />
+    <ClInclude Include="..\src\Diamond\basic\match.h" />
+    <ClInclude Include="..\src\Diamond\basic\packed_loc.h" />
+    <ClInclude Include="..\src\Diamond\basic\packed_sequence.h" />
+    <ClInclude Include="..\src\Diamond\basic\packed_transcript.h" />
+    <ClInclude Include="..\src\Diamond\basic\reduction.h" />
+    <ClInclude Include="..\src\Diamond\basic\score_matrix.h" />
+    <ClInclude Include="..\src\Diamond\basic\seed.h" />
+    <ClInclude Include="..\src\Diamond\basic\seed_iterator.h" />
+    <ClInclude Include="..\src\Diamond\basic\sequence.h" />
+    <ClInclude Include="..\src\Diamond\basic\shape.h" />
+    <ClInclude Include="..\src\Diamond\basic\shape_config.h" />
+    <ClInclude Include="..\src\Diamond\basic\statistics.h" />
+    <ClInclude Include="..\src\Diamond\basic\translate.h" />
+    <ClInclude Include="..\src\Diamond\basic\value.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_def.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_encoding.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_filter.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_message.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_program.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_query_info.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_seg.h" />
+    <ClInclude Include="..\src\Diamond\blast\blast_stat.h" />
+    <ClInclude Include="..\src\Diamond\blast\ncbitype.h" />
+    <ClInclude Include="..\src\Diamond\blast\ncbi_math.h" />
+    <ClInclude Include="..\src\Diamond\blast\ncbi_std.h" />
+    <ClInclude Include="..\src\Diamond\blast\raw_scoremat.h" />
+    <ClInclude Include="..\src\Diamond\data\frequent_seeds.h" />
+    <ClInclude Include="..\src\Diamond\data\index.h" />
+    <ClInclude Include="..\src\Diamond\data\load_seqs.h" />
+    <ClInclude Include="..\src\Diamond\data\queries.h" />
+    <ClInclude Include="..\src\Diamond\data\reference.h" />
+    <ClInclude Include="..\src\Diamond\data\seed_histogram.h" />
+    <ClInclude Include="..\src\Diamond\data\seed_set.h" />
+    <ClInclude Include="..\src\Diamond\data\sequence_set.h" />
+    <ClInclude Include="..\src\Diamond\data\sorted_list.h" />
+    <ClInclude Include="..\src\Diamond\data\string_set.h" />
+    <ClInclude Include="..\src\Diamond\data\taxonomy.h" />
+    <ClInclude Include="..\src\Diamond\dp\dp.h" />
+    <ClInclude Include="..\src\Diamond\dp\dp_matrix.h" />
+    <ClInclude Include="..\src\Diamond\dp\floating_sw.h" />
+    <ClInclude Include="..\src\Diamond\dp\growing_buffer.h" />
+    <ClInclude Include="..\src\Diamond\dp\scalar_dp_matrix.h" />
+    <ClInclude Include="..\src\Diamond\dp\scalar_traceback.h" />
+    <ClInclude Include="..\src\Diamond\dp\score_profile.h" />
+    <ClInclude Include="..\src\Diamond\dp\score_vector.h" />
+    <ClInclude Include="..\src\Diamond\dp\smith_waterman.h" />
+    <ClInclude Include="..\src\Diamond\dp\traceback.h" />
+    <ClInclude Include="..\src\Diamond\extra\blast_record.h" />
+    <ClInclude Include="..\src\Diamond\extra\compare.h" />
+    <ClInclude Include="..\src\Diamond\extra\extra.h" />
+    <ClInclude Include="..\src\Diamond\extra\match_file.h" />
+    <ClInclude Include="..\src\Diamond\lib\tantan\tantan.hh" />
+    <ClInclude Include="..\src\Diamond\output\daa_file.h" />
+    <ClInclude Include="..\src\Diamond\output\daa_record.h" />
+    <ClInclude Include="..\src\Diamond\output\daa_write.h" />
+    <ClInclude Include="..\src\Diamond\output\output.h" />
+    <ClInclude Include="..\src\Diamond\output\output_format.h" />
+    <ClInclude Include="..\src\Diamond\output\target_culling.h" />
+    <ClInclude Include="..\src\Diamond\run\tools.h" />
+    <ClInclude Include="..\src\Diamond\search\align_range.h" />
+    <ClInclude Include="..\src\Diamond\search\collision.h" />
+    <ClInclude Include="..\src\Diamond\search\hit_filter.h" />
+    <ClInclude Include="..\src\Diamond\search\sse_dist.h" />
+    <ClInclude Include="..\src\Diamond\search\trace_pt_buffer.h" />
+    <ClInclude Include="..\src\Diamond\util\async_buffer.h" />
+    <ClInclude Include="..\src\Diamond\util\binary_buffer.h" />
+    <ClInclude Include="..\src\Diamond\util\binary_file.h" />
+    <ClInclude Include="..\src\Diamond\util\command_line_parser.h" />
+    <ClInclude Include="..\src\Diamond\util\complexity_filter.h" />
+    <ClInclude Include="..\src\Diamond\util\compressed_stream.h" />
+    <ClInclude Include="..\src\Diamond\util\direction.h" />
+    <ClInclude Include="..\src\Diamond\util\double_buffer.h" />
+    <ClInclude Include="..\src\Diamond\util\fast_mutex.h" />
+    <ClInclude Include="..\src\Diamond\util\hash_function.h" />
+    <ClInclude Include="..\src\Diamond\util\hash_table.h" />
+    <ClInclude Include="..\src\Diamond\util\high_res_timer.h" />
+    <ClInclude Include="..\src\Diamond\util\log_stream.h" />
+    <ClInclude Include="..\src\Diamond\util\map.h" />
+    <ClInclude Include="..\src\Diamond\util\merge_sort.h" />
+    <ClInclude Include="..\src\Diamond\util\ptr_vector.h" />
+    <ClInclude Include="..\src\Diamond\util\queue.h" />
+    <ClInclude Include="..\src\Diamond\util\radix_sort.h" />
+    <ClInclude Include="..\src\Diamond\util\seq_file_format.h" />
+    <ClInclude Include="..\src\Diamond\util\simd.h" />
+    <ClInclude Include="..\src\Diamond\util\system.h" />
+    <ClInclude Include="..\src\Diamond\util\system_c.h" />
+    <ClInclude Include="..\src\Diamond\util\task_queue.h" />
+    <ClInclude Include="..\src\Diamond\util\temp_file.h" />
+    <ClInclude Include="..\src\Diamond\util\text_buffer.h" />
+    <ClInclude Include="..\src\Diamond\util\thread.h" />
+    <ClInclude Include="..\src\Diamond\util\Timer.h" />
+    <ClInclude Include="..\src\Diamond\util\tinythread.h" />
+    <ClInclude Include="..\src\Diamond\util\util.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DEE6D4C5-774E-45AB-ACBD-4AF4174E44FC}</ProjectGuid>
+    <RootNamespace>Diamond</RootNamespace>
+    <ProjectName>multseq</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)obj\</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)zlib-1.2.11;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)obj\</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)zlib-1.2.11;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
