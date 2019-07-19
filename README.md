@@ -12,8 +12,8 @@ multseq malign --in <input-file> [options]
 **\<input-file\>**: input file in fasta format that contain the non-aligned sequences. The resulting aligned sequences are stores into a file with the same name as input file with an extera **'.malign'** extension, also in fasta format. 
 
 ### options
-* **--threads \<numbers\>**: maximum number of CPU cores have been used in processing.
-* **--seed-pattern \<pattern\>**: the pattern that been used when exteracting seeds.
+* **--threads \<numbers\>**: maximum number of CPU cores have been use in processing.
+* **--seed-pattern \<pattern\>**: the pattern that been use when exteracting seeds.
 * **--package \<msa-tool\>**: the MSA-tool that been use when aligning in between sub-sequences.
   * available mas-tools: **mafft, famsa, muscle, clustalo, halign,** and **kalign**
 * **--minimizer**: activate the minimizer
