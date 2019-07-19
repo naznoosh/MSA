@@ -1,4 +1,5 @@
 # Notice
+* This MSA tool is available to download for both [Linux](https://github.com/naznoosh/MSA/releases/download/v0.8/train-linux-v0.8-binaries.tar.gz) and [Windows](https://github.com/naznoosh/MSA/releases/download/v0.8/train-win-v0.8-binaries.zip).
 * For linux OS user, make sure you pre-install the **zlib** package. you can install it using the following command line.
 ```
 sudo apt-get install zlib1g-dev
