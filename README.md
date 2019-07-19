@@ -9,7 +9,7 @@ sudo apt-get install zlib1g-dev
 ```
 multseq malign --in <input-file> [options]
 ```
-**\<input-file\>**: input file in fasta format that contain the non-aligned sequences. , also in fasta format. 
+**\<input-file\>**: the path and name of the file containing non-aligned sequences in **fasta format**. 
 
 ### options
 * **--threads \<numbers\>**: maximum number of CPU cores have been use in processing.
@@ -18,6 +18,6 @@ multseq malign --in <input-file> [options]
   * available mas-tools: **mafft, famsa, muscle, clustalo, halign,** and **kalign**
 * **--minimizer**: activate the minimizer
 * **--temp \<dir\>**: the path to stote intermediate temporary files.
-* **-out \<file-name\>**: path and name of output file to store The resulting aligned sequences in fasta format. If not spacefiled, the resulting aligned sequences are stores into a file with the same name as input file with an extera **'.malign'** extension.   
+* **-out \<file-name\>**: path and name of output file to store The resulting aligned sequences in **fasta format**. If not spacefiled, the resulting aligned sequences are stores into a file with the same name as input file with an extera **'.malign'** extension.   
 * **--run-parallel \<numbers\>**: number of MSA-tool that run in parallel.
 * **--alphabet-reduction**: activate the alphaber reduction.
