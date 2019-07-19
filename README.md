@@ -22,3 +22,4 @@ multseq malign --in <input-file> [options]
 * **-out \<file-name\>**: path and name of output file to store The resulting aligned sequences in **fasta format**. If not spacefiled, the resulting aligned sequences are stores into a file with the same name as input file with an extera **'.malign'** extension.   
 * **--run-parallel \<numbers\>**: number of MSA-tool that run in parallel. **default**, the value set to *--threads* option.
 * **--alphabet-reduction**: activate the alphaber reduction.
+* **--verbose**: verbose mode.
